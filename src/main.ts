@@ -1,12 +1,12 @@
 import { Plugin } from "obsidian";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
-interface MyPluginSettings {}
+interface RequestExamplePluginSettings {}
 
-const DEFAULT_SETTINGS: MyPluginSettings = {};
+const DEFAULT_SETTINGS: RequestExamplePluginSettings = {};
 
-export default class MyPlugin extends Plugin {
-	settings: MyPluginSettings;
+export default class RequestExamplePlugin extends Plugin {
+	settings: RequestExamplePluginSettings;
 
 	async onload() {
 		await this.loadSettings();

@@ -1,9 +1,9 @@
 {
-	"id": "obsidian-plugin-template",
-	"name": "Obsidian plugin template",
+	"id": "request-example",
+	"name": "Request Example Plugin",
 	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "A description for the plugin.",
+	"description": "Examples of using request and requestUrl from the Obsidian API.",
 	"author": "Zachatoo",
 	"authorUrl": "https://zachyoung.dev",
 	"fundingUrl": "https://github.com/sponsors/Zachatoo",
